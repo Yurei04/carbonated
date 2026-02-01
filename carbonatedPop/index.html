@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      width: 360px;
+      padding: 18px;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+      background: linear-gradient(135deg, #667eea, #764ba2);
+      color: white;
+    }
+
+    .container {
+      background: rgba(255, 255, 255, 0.12);
+      padding: 18px;
+      border-radius: 14px;
+      backdrop-filter: blur(14px);
+    }
+
+    h2 {
+      margin: 0 0 14px 0;
+      font-size: 22px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .current-site-box {
+      background: rgba(0, 0, 0, 0.25);
+      padding: 12px;
+      border-radius: 10px;
+      margin-bottom: 16px;
+    }
+
+    .site-label {
+      font-size: 11px;
+      opacity: 0.8;
+      text-transform: uppercase;
+      margin-bottom: 4px;
+    }
+
+    .site-name {
+      font-size: 15px;
+      font-weight: 600;
+      word-break: break-word;
+    }
+
+    .live-counter {
+      background: rgba(255, 255, 255, 0.18);
+      padding: 14px;
+      border-radius: 12px;
+      margin-bottom: 14px;
+      text-align: center;
+    }
+
+    .big-number {
+      font-size: 34px;
+      font-weight: 700;
+      margin: 6px 0;
+    }
+
+    .unit {
+      font-size: 12px;
+      opacity: 0.85;
+    }
+
+    .stats {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+    }
+
+    .stat-box {
+      background: rgba(255, 255, 255, 0.15);
+      padding: 12px;
+      border-radius: 10px;
+      text-align: center;
+    }
+
+    .stat-value {
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .stat-label {
+      font-size: 10px;
+      opacity: 0.8;
+      margin-top: 4px;
+      text-transform: uppercase;
+    }
+
+    button {
+      width: 100%;
+      padding: 12px;
+      margin-top: 16px;
+      border: none;
+      border-radius: 10px;
+      background: white;
+      color: #667eea;
+      font-weight: 700;
+      cursor: pointer;
+      transition: 0.2s;
+    }
+
+    button:hover {
+      background: #f4f4f4;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h2>🌍 Carbon Tracker</h2>
+
+    <!-- CURRENT WEBSITE -->
+    <div class="current-site-box">
+      <div class="site-label">Currently Reading</div>
+      <div class="site-name" id="currentSite">No active website</div>
+    </div>
+
+    <!-- CURRENT SESSION -->
+    <div class="live-counter">
+      <div class="unit">Carbon Emitted (Session)</div>
+      <div class="big-number" id="currentCarbon">0.00</div>
+      <div class="unit">grams CO₂</div>
+    </div>
+
+    <!-- TOTAL STATS -->
+    <div class="stats">
+      <div class="stat-box">
+        <div class="stat-value" id="totalCarbon">0</div>
+        <div class="stat-label">Total CO₂ (g)</div>
+      </div>
+
+      <div class="stat-box">
+        <div class="stat-value" id="timeSpent">0</div>
+        <div class="stat-label">Minutes Browsing</div>
+      </div>
+    </div>
+
+    <button id="reset">Reset Stats</button>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
