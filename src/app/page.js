@@ -19,101 +19,96 @@ const GEO_URL = "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json"
 const extensionDrinks = [
   {
     id: "D1",
-    name: "Carbonated",
-    category: "PRODUCTIVITY BOOST",
-    icon: "🥤",
-    color: "bg-gradient-to-br from-red-600 to-red-800",
-    borderColor: "border-red-500",
-    image: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200' viewBox='0 0 200 200'%3E%3Crect fill='%23dc2626' width='200' height='200'/%3E%3Ctext x='100' y='100' font-size='80' text-anchor='middle' dominant-baseline='middle'%3E🥤%3C/text%3E%3C/svg%3E",
-    purpose: "Supercharge your browsing with instant productivity tools and shortcuts",
+    name: "Carbonated Juice",
+    category: "ENVIRONMENTAL IMPACT",
+    icon: "🧃",
+    color: "bg-gradient-to-br from-green-600 to-emerald-800",
+    borderColor: "border-green-500",
+    image: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200' viewBox='0 0 200 200'%3E%3Crect fill='%2316a34a' width='200' height='200'/%3E%3Ctext x='100' y='100' font-size='80' text-anchor='middle' dominant-baseline='middle'%3E🧃%3C/text%3E%3C/svg%3E",
+    purpose: "Rate website environmental impact with real-time sustainability scoring",
     features: [
-      "⚡ Lightning-fast tab management",
-      "🔖 Smart bookmarking system", 
-      "📊 Productivity analytics",
-      "⌨️ Custom keyboard shortcuts",
-      "🎯 Focus mode with site blocking"
+      "🌍 Real-time carbon footprint analysis",
+      "📊 Environmental impact ratings per website",
+      "♻️ Sustainability scoring system",
+      "📈 Track your browsing eco-impact",
+      "🌱 Green website recommendations"
     ],
     useCases: [
-      "Manage 100+ tabs effortlessly",
-      "Quick access to frequent sites",
-      "Track time spent on tasks",
-      "Boost work efficiency by 40%"
+      "Monitor carbon cost of web browsing",
+      "Choose eco-friendly websites",
+      "Track environmental impact data",
+      "Make sustainable browsing choices"
     ],
-    downloadLink: "#carbonated-extension"
+    downloadLink: "#carbonated-juice-extension",
+    technicalSpecs: [
+      "Real-time emissions calculation",
+      "Per-page sustainability metrics",
+      "Cumulative impact tracking",
+      "Green hosting detection"
+    ]
   },
   {
     id: "D2",
-    name: "Coffee",
-    category: "DEVELOPER TOOLS",
-    icon: "☕",
-    color: "bg-gradient-to-br from-amber-700 to-amber-900",
-    borderColor: "border-amber-600",
-    image: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200' viewBox='0 0 200 200'%3E%3Crect fill='%23b45309' width='200' height='200'/%3E%3Ctext x='100' y='100' font-size='80' text-anchor='middle' dominant-baseline='middle'%3E☕%3C/text%3E%3C/svg%3E",
-    purpose: "Essential developer toolkit for debugging, testing, and code optimization",
+    name: "Carbonated Pop",
+    category: "CARBON TRACKING",
+    icon: "🥤",
+    color: "bg-gradient-to-br from-blue-600 to-cyan-800",
+    borderColor: "border-blue-500",
+    image: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200' viewBox='0 0 200 200'%3E%3Crect fill='%232563eb' width='200' height='200'/%3E%3Ctext x='100' y='100' font-size='80' text-anchor='middle' dominant-baseline='middle'%3E🫧%3C/text%3E%3C/svg%3E",
+    purpose: "Track website carbon footprint per second with live monitoring",
     features: [
-      "🔍 Advanced element inspector",
-      "🐛 Real-time console debugging",
-      "🎨 CSS live editor",
-      "📱 Responsive design tester",
-      "⚙️ API request interceptor"
+      "⏱️ Per-second carbon tracking",
+      "📡 Live monitoring dashboard",
+      "💾 Historical data storage",
+      "🔔 High-emission alerts",
+      "📊 Detailed analytics graphs"
     ],
     useCases: [
-      "Debug complex web applications",
-      "Test responsive layouts instantly",
-      "Inspect and modify CSS on-the-fly",
-      "Monitor network requests"
+      "Monitor real-time carbon output",
+      "Track emissions per second",
+      "Analyze browsing patterns",
+      "Set carbon usage goals"
     ],
-    downloadLink: "#coffee-extension"
+    downloadLink: "#carbonated-pop-extension",
+    technicalSpecs: [
+      "Second-by-second tracking",
+      "WebNavigation API integration",
+      "Persistent data storage",
+      "Cross-tab monitoring"
+    ]
   },
   {
     id: "D3",
-    name: "Juice",
-    category: "CONTENT ENHANCER",
-    icon: "🧃",
-    color: "bg-gradient-to-br from-orange-500 to-orange-700",
-    borderColor: "border-orange-500",
-    image: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200' viewBox='0 0 200 200'%3E%3Crect fill='%23f97316' width='200' height='200'/%3E%3Ctext x='100' y='100' font-size='80' text-anchor='middle' dominant-baseline='middle'%3E🧃%3C/text%3E%3C/svg%3E",
-    purpose: "Transform your reading experience with smart content filtering and enhancement",
+    name: "Carbonated Coffee",
+    category: "MINDFUL BROWSING",
+    icon: "☕",
+    color: "bg-gradient-to-br from-purple-600 to-indigo-800",
+    borderColor: "border-purple-500",
+    image: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200' viewBox='0 0 200 200'%3E%3Crect fill='%239333ea' width='200' height='200'/%3E%3Ctext x='100' y='100' font-size='80' text-anchor='middle' dominant-baseline='middle'%3E🎭%3C/text%3E%3C/svg%3E",
+    purpose: "Covers websites with a privacy curtain to prevent overuse and protect privacy",
     features: [
-      "📖 Reader mode for any website",
-      "🎨 Custom font and theme control",
-      "🔊 Text-to-speech narration",
-      "💾 Save articles for offline reading",
-      "✂️ Remove ads and distractions"
+      "☕ Instant privacy curtain overlay",
+      "⏰ Time-based website blocking",
+      "🔒 Prevent mindless browsing",
+      "📱 Customizable blocked sites list",
+      "💪 Build healthier browsing habits"
     ],
     useCases: [
-      "Clean reading on cluttered sites",
-      "Listen to articles while multitasking",
-      "Build a personal reading library",
-      "Customize reading experience"
+      "Block distracting websites",
+      "Reduce screen time naturally",
+      "Protect privacy with curtain",
+      "Create mindful browsing pauses"
     ],
-    downloadLink: "#juice-extension"
-  },
-  {
-    id: "D4",
-    name: "Pop",
-    category: "PRIVACY SHIELD",
-    icon: "🫧",
-    color: "bg-gradient-to-br from-blue-600 to-blue-800",
-    borderColor: "border-blue-500",
-    image: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200' viewBox='0 0 200 200'%3E%3Crect fill='%232563eb' width='200' height='200'/%3E%3Ctext x='100' y='100' font-size='80' text-anchor='middle' dominant-baseline='middle'%3E🫧%3C/text%3E%3C/svg%3E",
-    purpose: "Ultimate privacy protection with tracker blocking and secure browsing",
-    features: [
-      "🛡️ Block trackers and ads",
-      "🔒 HTTPS encryption enforcer",
-      "🕵️ Anonymous browsing mode",
-      "🚫 Cookie auto-deletion",
-      "📊 Privacy score for each site"
-    ],
-    useCases: [
-      "Browse without being tracked",
-      "Protect personal information",
-      "Block intrusive advertisements",
-      "See who's tracking you"
-    ],
-    downloadLink: "#pop-extension"
+    downloadLink: "#privacy-curtain-extension",
+    technicalSpecs: [
+      "Document-start injection",
+      "Custom CSS curtain overlay",
+      "Site-specific configurations",
+      "Manual override options"
+    ]
   }
 ];
+
 
 /* -------------------------------
    Parse emissions value
