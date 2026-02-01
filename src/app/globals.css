@@ -1,6 +1,62 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 
+
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: black;
+}
+
+.map-wrapper {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(
+    180deg,
+    #0b1d26 0%,
+    #132f3a 50%,
+    #1e3a5f 100%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.world-map {
+  width: 100%;
+  height: 100%;
+}
+
+.world-map svg path {
+  fill: #8b6f47; 
+  stroke: #f4e4bc; 
+  stroke-width: 0.35;
+  transition:
+    fill 0.25s ease,
+    stroke 0.25s ease,
+    filter 0.25s ease,
+    transform 0.25s ease;
+}
+
+.world-map svg path:hover {
+  fill: #f2c94c; 
+  stroke: #f6e7c1;
+  filter: drop-shadow(0 0 4px rgba(242, 201, 76, 0.35));
+  cursor: pointer;
+}
+
+.world-map svg path:active {
+  transform: scale(1.01);
+}
+
+.world-map svg path:not(:hover) {
+  opacity: 0.95;
+}
+
+
+
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {

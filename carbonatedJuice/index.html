@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sustainability Score</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Carbonated Juice</h1>
+    </header>
+    
+    <div id="loading" class="loading">
+      <div class="spinner"></div>
+      <p>Analyzing page...</p>
+    </div>
+    
+    <div id="content" class="content" style="display: none;">
+      <div class="score-card">
+        <div class="grade-display">
+          <div id="gradeIcon" class="grade-icon">🌱</div>
+          <div id="gradeLetter" class="grade-letter">A</div>
+        </div>
+        <div id="scoreValue" class="score-value">100</div>
+        <div id="scoreLabel" class="score-label">Excellent</div>
+      </div>
+      
+      <div class="metrics">
+        <div class="metric-row">
+          <span class="metric-label">Page Size</span>
+          <span id="pageSize" class="metric-value">—</span>
+        </div>
+        <div class="metric-row">
+          <span class="metric-label">Requests</span>
+          <span id="requests" class="metric-value">—</span>
+        </div>
+        <div class="metric-row">
+          <span class="metric-label">Load Time</span>
+          <span id="loadTime" class="metric-value">—</span>
+        </div>
+        <div class="metric-row">
+          <span class="metric-label">CO₂ Estimate</span>
+          <span id="co2" class="metric-value">—</span>
+        </div>
+      </div>
+      
+      <div class="stats-section">
+        <h3>Your Impact</h3>
+        <div class="stat-card">
+          <div class="stat-icon">📅</div>
+          <div class="stat-info">
+            <div class="stat-label">Today</div>
+            <div id="dailyCarbon" class="stat-value">0g CO₂ saved</div>
+          </div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon">📊</div>
+          <div class="stat-info">
+            <div class="stat-label">This Week</div>
+            <div id="weeklyCarbon" class="stat-value">0g CO₂ saved</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div id="error" class="error" style="display: none;">
+      <p>Unable to analyze this page. Try refreshing!</p>
+    </div>
+  </div>
+  
+  <script src="index.js"></script>
+</body>
+</html>
