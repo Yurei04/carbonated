@@ -286,7 +286,7 @@ export default function HomePage() {
       title: "AI Chat",
       icon: "🤖",
       color: "from-blue-600 to-blue-800",
-      type: "page"
+      type: "locked"
     },
     {
       id: "A4",
@@ -783,11 +783,11 @@ export default function HomePage() {
           <div className="bg-gradient-to-b from-gray-800 to-gray-900 rounded-t-3xl border-x-4 border-t-4 border-gray-700 p-8">
             <div className="text-center">
               <h1 className="text-6xl font-black text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-red-400 to-blue-400 mb-2">
-                DIGITAL VENDING
+                Carbonated
               </h1>
               <div className="inline-flex items-center gap-2 bg-green-500 text-black px-4 py-1 rounded-full text-sm font-bold">
                 <div className="w-2 h-2 bg-black rounded-full animate-pulse"></div>
-                ONLINE
+                Drinks
               </div>
             </div>
           </div>
