@@ -1,0 +1,352 @@
+{
+  "Canada": {
+    "emissions": "557 Mt CO₂",
+    "powerUsage": "571 TWh",
+    "population": "38 million",
+    "renewablePercent": "68%",
+    "perCapitaEmissions": "14.6 tonnes"
+  },
+  "United States": {
+    "emissions": "5,007 Mt CO₂",
+    "powerUsage": "3,989 TWh",
+    "population": "331 million",
+    "renewablePercent": "21%",
+    "perCapitaEmissions": "15.1 tonnes"
+  },
+  "China": {
+    "emissions": "11,472 Mt CO₂",
+    "powerUsage": "8,312 TWh",
+    "population": "1.4 billion",
+    "renewablePercent": "28%",
+    "perCapitaEmissions": "8.0 tonnes"
+  },
+  "India": {
+    "emissions": "2,654 Mt CO₂",
+    "powerUsage": "1,547 TWh",
+    "population": "1.38 billion",
+    "renewablePercent": "38%",
+    "perCapitaEmissions": "1.9 tonnes"
+  },
+  "Russia": {
+    "emissions": "1,711 Mt CO₂",
+    "powerUsage": "1,091 TWh",
+    "population": "144 million",
+    "renewablePercent": "19%",
+    "perCapitaEmissions": "11.9 tonnes"
+  },
+  "Japan": {
+    "emissions": "1,107 Mt CO₂",
+    "powerUsage": "1,015 TWh",
+    "population": "126 million",
+    "renewablePercent": "20%",
+    "perCapitaEmissions": "8.7 tonnes"
+  },
+  "Germany": {
+    "emissions": "675 Mt CO₂",
+    "powerUsage": "550 TWh",
+    "population": "83 million",
+    "renewablePercent": "46%",
+    "perCapitaEmissions": "8.1 tonnes"
+  },
+  "United Kingdom": {
+    "emissions": "326 Mt CO₂",
+    "powerUsage": "320 TWh",
+    "population": "67 million",
+    "renewablePercent": "43%",
+    "perCapitaEmissions": "4.9 tonnes"
+  },
+  "France": {
+    "emissions": "298 Mt CO₂",
+    "powerUsage": "468 TWh",
+    "population": "67 million",
+    "renewablePercent": "19%",
+    "perCapitaEmissions": "4.4 tonnes"
+  },
+  "Brazil": {
+    "emissions": "466 Mt CO₂",
+    "powerUsage": "626 TWh",
+    "population": "213 million",
+    "renewablePercent": "83%",
+    "perCapitaEmissions": "2.2 tonnes"
+  },
+  "Australia": {
+    "emissions": "414 Mt CO₂",
+    "powerUsage": "260 TWh",
+    "population": "26 million",
+    "renewablePercent": "29%",
+    "perCapitaEmissions": "16.1 tonnes"
+  },
+  "South Korea": {
+    "emissions": "611 Mt CO₂",
+    "powerUsage": "580 TWh",
+    "population": "52 million",
+    "renewablePercent": "6%",
+    "perCapitaEmissions": "11.7 tonnes"
+  },
+  "Mexico": {
+    "emissions": "440 Mt CO₂",
+    "powerUsage": "323 TWh",
+    "population": "129 million",
+    "renewablePercent": "25%",
+    "perCapitaEmissions": "3.4 tonnes"
+  },
+  "Italy": {
+    "emissions": "323 Mt CO₂",
+    "powerUsage": "319 TWh",
+    "population": "60 million",
+    "renewablePercent": "40%",
+    "perCapitaEmissions": "5.4 tonnes"
+  },
+  "Spain": {
+    "emissions": "244 Mt CO₂",
+    "powerUsage": "269 TWh",
+    "population": "47 million",
+    "renewablePercent": "44%",
+    "perCapitaEmissions": "5.2 tonnes"
+  },
+  "Indonesia": {
+    "emissions": "615 Mt CO₂",
+    "powerUsage": "276 TWh",
+    "population": "274 million",
+    "renewablePercent": "12%",
+    "perCapitaEmissions": "2.2 tonnes"
+  },
+  "Saudi Arabia": {
+    "emissions": "582 Mt CO₂",
+    "powerUsage": "372 TWh",
+    "population": "35 million",
+    "renewablePercent": "0.4%",
+    "perCapitaEmissions": "16.4 tonnes"
+  },
+  "Turkey": {
+    "emissions": "419 Mt CO₂",
+    "powerUsage": "323 TWh",
+    "population": "84 million",
+    "renewablePercent": "44%",
+    "perCapitaEmissions": "5.0 tonnes"
+  },
+  "Poland": {
+    "emissions": "319 Mt CO₂",
+    "powerUsage": "167 TWh",
+    "population": "38 million",
+    "renewablePercent": "16%",
+    "perCapitaEmissions": "8.4 tonnes"
+  },
+  "Netherlands": {
+    "emissions": "152 Mt CO₂",
+    "powerUsage": "119 TWh",
+    "population": "17 million",
+    "renewablePercent": "15%",
+    "perCapitaEmissions": "8.8 tonnes"
+  },
+  "Argentina": {
+    "emissions": "175 Mt CO₂",
+    "powerUsage": "144 TWh",
+    "population": "45 million",
+    "renewablePercent": "31%",
+    "perCapitaEmissions": "3.9 tonnes"
+  },
+  "South Africa": {
+    "emissions": "447 Mt CO₂",
+    "powerUsage": "234 TWh",
+    "population": "60 million",
+    "renewablePercent": "6%",
+    "perCapitaEmissions": "7.4 tonnes"
+  },
+  "Egypt": {
+    "emissions": "234 Mt CO₂",
+    "powerUsage": "199 TWh",
+    "population": "104 million",
+    "renewablePercent": "11%",
+    "perCapitaEmissions": "2.2 tonnes"
+  },
+  "Thailand": {
+    "emissions": "273 Mt CO₂",
+    "powerUsage": "201 TWh",
+    "population": "70 million",
+    "renewablePercent": "12%",
+    "perCapitaEmissions": "3.9 tonnes"
+  },
+  "Vietnam": {
+    "emissions": "266 Mt CO₂",
+    "powerUsage": "250 TWh",
+    "population": "98 million",
+    "renewablePercent": "36%",
+    "perCapitaEmissions": "2.7 tonnes"
+  },
+  "Malaysia": {
+    "emissions": "227 Mt CO₂",
+    "powerUsage": "164 TWh",
+    "population": "33 million",
+    "renewablePercent": "24%",
+    "perCapitaEmissions": "6.9 tonnes"
+  },
+  "Philippines": {
+    "emissions": "138 Mt CO₂",
+    "powerUsage": "106 TWh",
+    "population": "111 million",
+    "renewablePercent": "33%",
+    "perCapitaEmissions": "1.2 tonnes"
+  },
+  "Nigeria": {
+    "emissions": "104 Mt CO₂",
+    "powerUsage": "29 TWh",
+    "population": "211 million",
+    "renewablePercent": "86%",
+    "perCapitaEmissions": "0.5 tonnes"
+  },
+  "Pakistan": {
+    "emissions": "198 Mt CO₂",
+    "powerUsage": "121 TWh",
+    "population": "225 million",
+    "renewablePercent": "64%",
+    "perCapitaEmissions": "0.9 tonnes"
+  },
+  "Bangladesh": {
+    "emissions": "84 Mt CO₂",
+    "powerUsage": "71 TWh",
+    "population": "167 million",
+    "renewablePercent": "3%",
+    "perCapitaEmissions": "0.5 tonnes"
+  },
+  "Norway": {
+    "emissions": "36 Mt CO₂",
+    "powerUsage": "148 TWh",
+    "population": "5.4 million",
+    "renewablePercent": "98%",
+    "perCapitaEmissions": "6.7 tonnes"
+  },
+  "Sweden": {
+    "emissions": "43 Mt CO₂",
+    "powerUsage": "139 TWh",
+    "population": "10.4 million",
+    "renewablePercent": "56%",
+    "perCapitaEmissions": "4.1 tonnes"
+  },
+  "Finland": {
+    "emissions": "43 Mt CO₂",
+    "powerUsage": "85 TWh",
+    "population": "5.5 million",
+    "renewablePercent": "41%",
+    "perCapitaEmissions": "7.8 tonnes"
+  },
+  "Denmark": {
+    "emissions": "33 Mt CO₂",
+    "powerUsage": "34 TWh",
+    "population": "5.8 million",
+    "renewablePercent": "70%",
+    "perCapitaEmissions": "5.7 tonnes"
+  },
+  "Switzerland": {
+    "emissions": "38 Mt CO₂",
+    "powerUsage": "58 TWh",
+    "population": "8.7 million",
+    "renewablePercent": "75%",
+    "perCapitaEmissions": "4.3 tonnes"
+  },
+  "Belgium": {
+    "emissions": "95 Mt CO₂",
+    "powerUsage": "84 TWh",
+    "population": "11.6 million",
+    "renewablePercent": "23%",
+    "perCapitaEmissions": "8.2 tonnes"
+  },
+  "Austria": {
+    "emissions": "63 Mt CO₂",
+    "powerUsage": "70 TWh",
+    "population": "9 million",
+    "renewablePercent": "78%",
+    "perCapitaEmissions": "7.0 tonnes"
+  },
+  "Greece": {
+    "emissions": "64 Mt CO₂",
+    "powerUsage": "51 TWh",
+    "population": "10.7 million",
+    "renewablePercent": "35%",
+    "perCapitaEmissions": "6.0 tonnes"
+  },
+  "Portugal": {
+    "emissions": "48 Mt CO₂",
+    "powerUsage": "50 TWh",
+    "population": "10.3 million",
+    "renewablePercent": "58%",
+    "perCapitaEmissions": "4.7 tonnes"
+  },
+  "Czech Republic": {
+    "emissions": "97 Mt CO₂",
+    "powerUsage": "87 TWh",
+    "population": "10.7 million",
+    "renewablePercent": "15%",
+    "perCapitaEmissions": "9.1 tonnes"
+  },
+  "Chile": {
+    "emissions": "90 Mt CO₂",
+    "powerUsage": "78 TWh",
+    "population": "19 million",
+    "renewablePercent": "44%",
+    "perCapitaEmissions": "4.7 tonnes"
+  },
+  "Colombia": {
+    "emissions": "84 Mt CO₂",
+    "powerUsage": "76 TWh",
+    "population": "51 million",
+    "renewablePercent": "71%",
+    "perCapitaEmissions": "1.6 tonnes"
+  },
+  "New Zealand": {
+    "emissions": "33 Mt CO₂",
+    "powerUsage": "43 TWh",
+    "population": "5.1 million",
+    "renewablePercent": "84%",
+    "perCapitaEmissions": "6.5 tonnes"
+  },
+  "Singapore": {
+    "emissions": "37 Mt CO₂",
+    "powerUsage": "53 TWh",
+    "population": "5.7 million",
+    "renewablePercent": "3%",
+    "perCapitaEmissions": "6.5 tonnes"
+  },
+  "United Arab Emirates": {
+    "emissions": "206 Mt CO₂",
+    "powerUsage": "138 TWh",
+    "population": "10 million",
+    "renewablePercent": "5%",
+    "perCapitaEmissions": "20.6 tonnes"
+  },
+  "Israel": {
+    "emissions": "65 Mt CO₂",
+    "powerUsage": "67 TWh",
+    "population": "9.3 million",
+    "renewablePercent": "6%",
+    "perCapitaEmissions": "7.0 tonnes"
+  },
+  "Iran": {
+    "emissions": "672 Mt CO₂",
+    "powerUsage": "318 TWh",
+    "population": "85 million",
+    "renewablePercent": "7%",
+    "perCapitaEmissions": "7.9 tonnes"
+  },
+  "Iraq": {
+    "emissions": "166 Mt CO₂",
+    "powerUsage": "90 TWh",
+    "population": "41 million",
+    "renewablePercent": "1%",
+    "perCapitaEmissions": "4.0 tonnes"
+  },
+  "Kazakhstan": {
+    "emissions": "256 Mt CO₂",
+    "powerUsage": "107 TWh",
+    "population": "19 million",
+    "renewablePercent": "9%",
+    "perCapitaEmissions": "13.5 tonnes"
+  },
+  "Ukraine": {
+    "emissions": "202 Mt CO₂",
+    "powerUsage": "147 TWh",
+    "population": "44 million",
+    "renewablePercent": "11%",
+    "perCapitaEmissions": "4.6 tonnes"
+  }
+}
